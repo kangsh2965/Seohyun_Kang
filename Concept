@@ -1,1 +1,107 @@
 
+# 🧬 Restriction Enzyme Analysis
+### 제한효소 절단 위치 및 DNA 조각 길이 분석
+
+---
+
+## 📌 Project Overview
+
+본 프로젝트는 DNA의 특정 염기서열을 인식하고 절단하는 제한효소(Restriction Enzyme)의 작용 원리를 이해하고, 제한효소에 의해 생성되는 DNA 조각의 절단 위치와 길이를 분석하는 것을 목표로 한다.
+
+생명과학의 기본 개념인 DNA 구조, 염기서열, 제한효소의 인식 및 절단 원리를 학습하고, 이를 Python 기반의 DNA 서열 분석 프로그램으로 구현하고자 한다.
+
+### Research Question
+
+**제한효소의 종류에 따라 DNA의 절단 위치와 생성되는 DNA 조각의 길이는 어떻게 달라질까?**
+
+### Project Objectives
+
+- DNA의 구조와 염기서열에 대한 이해
+- 제한효소의 생물학적 역할과 작용 원리 학습
+- 제한효소별 인식 서열 및 절단 위치 분석
+- DNA 절단에 따른 조각의 개수와 길이 계산
+- 분석 결과의 시각화 및 생물학적 의미 해석
+
+---
+
+## 📚 Biology Concepts
+
+본 프로젝트와 관련된 생명과학 개념을 주제별로 정리하였다.
+
+### 01. Basic DNA Concepts
+
+DNA의 기본 구조와 유전정보를 구성하는 염기서열에 대해 학습한다.
+
+- [DNA Structure](01_Basic_DNA_Concepts/01_DNA_Structure.md)
+- [DNA Sequence](01_Basic_DNA_Concepts/02_DNA_Sequence.md)
+
+### 02. Restriction Enzymes
+
+제한효소의 종류, 인식 서열 및 DNA 절단 원리를 학습한다.
+
+- [Restriction Enzyme](02_Restriction_Enzymes/01_Restriction_Enzyme.md)
+- [Recognition Sequence](02_Restriction_Enzymes/02_Recognition_Sequence.md)
+- [Cleavage Mechanism](02_Restriction_Enzymes/03_Cleavage_Mechanism.md)
+
+### 03. DNA Fragment Analysis
+
+제한효소에 의해 생성되는 DNA 조각의 특성과 길이 계산 및 분석 방법을 학습한다.
+
+- [DNA Fragment](03_DNA_Fragment_Analysis/01_DNA_Fragment.md)
+- [Fragment Length Calculation](03_DNA_Fragment_Analysis/02_Fragment_Length.md)
+- [Gel Electrophoresis](03_DNA_Fragment_Analysis/03_Gel_Electrophoresis.md)
+
+### 04. Biological Applications
+
+제한효소가 실제 분자생물학 연구에서 활용되는 원리를 알아본다.
+
+- [Gene Cloning](04_Biological_Applications/01_Gene_Cloning.md)
+- [Restriction Mapping](04_Biological_Applications/02_Restriction_Mapping.md)
+
+---
+
+## 🔬 Project Workflow
+
+1. DNA 및 제한효소 관련 생명과학 개념 학습
+2. 분석 대상 DNA 염기서열 준비
+3. 제한효소의 인식 서열과 절단 정보 확인
+4. DNA 서열에서 제한효소 절단 위치 탐색
+5. 절단 위치를 기준으로 DNA 조각 길이 계산
+6. 제한효소별 분석 결과 비교
+7. 결과표 및 그래프 시각화
+8. 직접 계산한 예상값과 프로그램 결과 검증
+
+---
+
+## 💻 Analysis Tools
+
+| Tool | Purpose |
+|---|---|
+| Python | 분석 프로그램 구현 |
+| Biopython | DNA 서열 처리 및 분석 |
+| CSV | 분석 결과 저장 |
+| Matplotlib | 데이터 시각화 |
+
+---
+
+## 📊 Expected Output
+
+- 제한효소별 인식 서열
+- DNA 내 제한효소 절단 위치
+- 절단 횟수 및 생성되는 DNA 조각 개수
+- DNA 조각별 길이 (bp)
+- 제한효소별 절단 패턴 비교
+- DNA 절단 위치 및 조각 길이 그래프
+
+---
+
+## 📖 Learning Goals
+
+본 프로젝트를 통해 제한효소의 작용 원리와 DNA 절단에 따른 분자생물학적 변화를 이해하고, 생명과학 개념을 컴퓨터 기반의 서열 분석으로 연결하는 경험을 얻고자 한다.
+
+단순히 분석 결과를 도출하는 것에 그치지 않고, 결과의 정확성을 직접 검증하고 생물학적으로 해석하는 것을 최종 목표로 한다.
+
+---
+
+*Biology meets Computational Analysis.*
+
